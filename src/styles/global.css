@@ -15,7 +15,6 @@
 }
 
 html {
-  box-sizing: border-box;
   color: var(--primary-text-color);
   font-size: 10px;
   background-color: var(--primary-background-color);
@@ -23,6 +22,7 @@ html {
 }
 
 * {
+  box-sizing: border-box;
   /* border: 1px solid white; */
   margin: 0;
   padding: 0;
@@ -66,8 +66,9 @@ header > nav {
   min-height: 100vh;
   background: var(--secondary-background-color);
   margin: 0 auto;
-  /* padding: 50px; */
-  /* display: block; */
+  padding: 70px 70px;
+  display: flex;
+  justify-content: center;
   border-radius: 20px 20px 0 0;
   /* box-shadow: 
       0 0 50px #111; */
@@ -91,10 +92,15 @@ header > nav {
 h1 {
   font-size: 4.8rem;
   text-shadow: 0 0 0.5rem var(--primary-text-color);
+  
 }
 
 h2 {
   font-size: 2.7rem;
+}
+
+ul {
+  list-style: none;
 }
 
 .logotype {

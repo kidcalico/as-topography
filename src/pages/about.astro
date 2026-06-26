@@ -1,4 +1,5 @@
 ---
+import Header from '../components/Header.astro'
 import '../styles/global.css'
 
 const pageTitle = "About"
@@ -14,12 +15,8 @@ const pageTitle = "About"
     <title>as Topography: {pageTitle}</title>
   </head>
   <body>
+    <Header />
     <div class="container">
-      <nav>
-        <a href="/as-topography/">home</a>
-        <a href="/as-topography/blog/">blog</a>
-        <a href="/as-topography/about/">about</a>
-      </nav>
       <h1>{pageTitle}</h1>
     </div>
   </body>

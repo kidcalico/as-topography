@@ -1,4 +1,5 @@
 ---
+import Header from '../components/Header.astro';
 import '../styles/global.css';
 
 const pageTitle = "as Topography: Post Index"
@@ -14,16 +15,12 @@ const pageTitle = "as Topography: Post Index"
     <title>{pageTitle}</title>
   </head>
   <body>
+    <Header />
     <div class="container">
-      <nav>
-        <a href="/as-topography/">Home</a>
-        <a href="/as-topography/blog/">Blog</a>
-        <a href="/as-topography/about/">About</a>
-      </nav>
       <h1>Blog</h1>
       <ul>
         <li>
-          <a href="/as-topography/posts/post-1/">Post 1</a>
+          <!-- <a href="/as-topography/posts/post-1/">Post 1</a> -->
         </li>
       </ul>
     </div>
