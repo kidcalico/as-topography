@@ -38,9 +38,9 @@ body {
 
 header {
   margin: 0 auto;
-  margin-bottom: -10px;
+  margin-bottom: -13px;
   padding: 100px 0 0;
-  width: 915px;
+  width: 92vw;
   z-index: +1;
 
   display: flex;
@@ -55,14 +55,34 @@ header * {
   text-shadow: 0px 0px 2px #f9f5eb;
 }
 
-header > nav {
+header nav {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
+}
+
+.menu {
+  background-color: #0d0950;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+}
+
+.nav-links {
+  width: 100%;
+  display: none;
+  margin: 0;
+}
+
+.nav-links a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
 }
 
 .container {
-  width: 900px;
+  width: 90vw;
   min-height: 100vh;
   background: var(--secondary-background-color);
   margin: 0 auto;
@@ -137,9 +157,45 @@ a {
   transition: transform 0.7s ease;
 }
 
-a:hover {
+a:hover, a:focus {
   transform: scale(1.1, 1.1);
   /* text-decoration: underline dotted; */
   border-top: 1px dotted var(--secondary-text-color);
   border-bottom: 1px dotted var(--secondary-text-color);
+}
+
+:has(.menu[aria-expanded="true"]) .nav-links {
+  display: unset;
+}
+
+@media screen and (min-width: 600px) {
+  .nav-links {
+    /* margin-left: 5em; */
+    /* display: block; */
+    /* position: static; */
+    /* width: auto; */
+    /* background: none; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav-links a {
+    /* display: inline-block; */
+    /* padding: 15px 20px; */
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  header {
+    width: 915px;
+  }
+
+  .container {
+    width: 900px;
+  }
 }
