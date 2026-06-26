@@ -11,14 +11,14 @@
   --secondary-background-color: #111;
   --primary-text-color: #FDB514;
   --secondary-text-color: #ffd67e;
-  --primary-font: "Syne Mono";
+  --primary-font-stack: "Syne Mono", "Courier New", Courier;
 }
 
 html {
   color: var(--primary-text-color);
   font-size: 10px;
   background-color: var(--primary-background-color);
-  font-family: var(--primary-font), monospace;
+  font-family: var(--primary-font-stack);
 }
 
 * {
@@ -68,11 +68,13 @@ header > nav {
   margin: 0 auto;
   padding: 70px 70px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   border-radius: 20px 20px 0 0;
-  /* box-shadow: 
-      0 0 50px #111; */
-  filter: drop-shadow(0 0 15px #111)
+  box-shadow: 
+      0 0 50px #111;
+  /* cursor: none; */
 }
 
 .hero {
@@ -87,6 +89,12 @@ header > nav {
   bottom: 0;
   right: 0;
   z-index: -1;
+}
+
+footer {
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 15px;
 }
 
 h1 {
@@ -113,11 +121,12 @@ ul {
 }
 
 .hero > h1 {
-  transition: transform 0.5s ease;
+  transition: transform 5s ease;
+  cursor: none;
 }
 
 .hero > h1:hover {
-  transform: scale(1.1);
+  transform: scale(1.4);
 }
 
 a {
