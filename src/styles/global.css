@@ -85,15 +85,17 @@ header nav {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
   width: 90vw;
   min-height: 100vh;
   background: var(--secondary-background-color);
   margin: 0 auto;
   padding: 70px 70px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   border-radius: 20px 20px 0 0;
   box-shadow: 
       0 0 50px #111;
@@ -115,9 +117,10 @@ header nav {
 }
 
 footer {
+  margin-top: 25px;
   font-size: 1.2rem;
-  position: absolute;
-  bottom: 15px;
+  /* position: s; */
+  /* bottom: 15px; */
 }
 
 h1 {
@@ -128,6 +131,10 @@ h1 {
 
 h2 {
   font-size: 2.7rem;
+}
+
+p {
+  font-size: 1.6rem;
 }
 
 ul {
@@ -161,11 +168,19 @@ a {
   transition: transform 0.7s ease;
 }
 
-a:hover, a:focus {
+nav a:hover, a:focus {
   transform: scale(1.1, 1.1);
   /* text-decoration: underline dotted; */
   border-top: 1px dotted var(--secondary-text-color);
   border-bottom: 1px dotted var(--secondary-text-color);
+}
+
+.container a:hover, a:focus {
+  text-decoration: dotted underline;
+}
+
+sup {
+  font-size: 1.2rem;
 }
 
 :has(.menu[aria-expanded="true"]) .nav-links {

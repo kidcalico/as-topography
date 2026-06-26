@@ -1,12 +1,12 @@
 ---
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import '../styles/global.css';
-
-const pageTitle = "as Topography: Post Index";
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Blog";
 ---
+<BaseLayout pageTitle={pageTitle}>
+  <a href="/as-topography/posts/post-1/">Post 1</a>
+</BaseLayout>
 
-<html lang="en">
+<!-- <html lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -21,13 +21,13 @@ const pageTitle = "as Topography: Post Index";
       <h1>Blog</h1>
       <ul>
         <li>
-          <!-- <a href="/as-topography/posts/post-1/">Post 1</a> -->
+          <a href="/as-topography/posts/post-1/">Post 1</a>
         </li>
       </ul>
       <Footer />
-      <script>
-				import "../scripts/menu.js"
-			</script>
     </div>
+    <script>
+      import "../scripts/menu.js"
+    </script>
   </body>
-</html>
+</html> -->

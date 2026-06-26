@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'On learning to breathe again...'
 pubDate: 2026-06-24
 description: 'Hopes and dreams for the future of this [web]space.'
@@ -8,10 +9,6 @@ image:
     alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-# On learning to breathe again...
-
-Published on: 2026-06-24
-
 Last night I was making one of my go to meals: spinach-mushroom pasta. It was going pretty well until I finished cooking the pasta and added it to the saute, as I normally do. There was one problem though: I forgot to add the spinach. I was already in an absent minded state, so it was downhill from there, I blasted the heat but also needed to add a little water to prevent sticking and sort of steam the frozen greens, ended up with sadness in a bowl for dinner.
 
 This kind of thing hasn't been happening too often lately, thankfully, but it's also not unheard of. Sometimes my brain just decides to stop working. [Sidenote: It actually doesn't 'just' happen, it's actually quite predictable, given that I know what symptoms to look for. I'm getting better at predicting and maneuvering myself into a more encouraging disposition and mindset.] It slowly gets pushed out of balance by overstimulation: (not limited to) too much noise, bright lights (especially florescents), high stress and novel environments. This is exacerbated by other internal factors, such as whether I've drank water, eaten something, bathed or breathed that day. I have trouble remembering to do those things when my brain craps out, so it can become a vicious cycle if I'm not careful.
@@ -46,6 +43,6 @@ I've come a long way and have been able to work through a lot of quirks and cogn
 
 Even more, I'm inspired. There's work to be done in this field, and I am wondering how I can play a part in a world that is friendly to humans of varying incline and experience.
 
-[^2] After all, I'm writing this in [markdown](https://en.wikipedia.org/wiki/Markdown) using VSCode, and it feels better than any word processor I've ever touched.
+[^2]:After all, I'm writing this in [markdown](https://en.wikipedia.org/wiki/Markdown) using VSCode, and it feels better than any word processor I've ever touched.
 
-[^1]As a sidenote: I realize I am privileged to be able to book a one way ticket somewhere, to enter into a life of gallivanting and soul searching, but I worked hard as an English Teacher to save up for doing *exactly that*. Instead of becoming a homeowner or investing in a business, I've spend the past fifteen years or so investing in myself, gaining knowledge, wisdom and experience living in places very different from the ones in which I was raised.
+[^1]:As a sidenote: I realize I am privileged to be able to book a one way ticket somewhere, to enter into a life of gallivanting and soul searching, but I worked hard as an English Teacher to save up for doing *exactly that*. Instead of becoming a homeowner or investing in a business, I've spend the past fifteen years or so investing in myself, gaining knowledge, wisdom and experience living in places very different from the ones in which I was raised.
