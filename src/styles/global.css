@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+.syne-mono-regular {
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --primary-background-color: #222;
+  --secondary-background-color: #111;
+  --primary-text-color: #FDB514;
+  --secondary-text-color: #ffd67e;
+  --primary-font: "Syne Mono";
+}
+
+html {
+  box-sizing: border-box;
+  color: var(--primary-text-color);
+  font-size: 10px;
+  background-color: var(--primary-background-color);
+  font-family: var(--primary-font), monospace;
+}
+
+* {
+  /* border: 1px solid white; */
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* font-size: 1.6rem; */
+}
+
+header {
+  margin: 0 auto;
+  margin-bottom: -10px;
+  padding: 100px 0 0;
+  width: 915px;
+  z-index: +1;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  color: var(--secondary-text-color);
+  font-size: 1.8rem;
+}
+
+header * {
+  text-shadow: 0px 0px 2px #f9f5eb;
+}
+
+header > nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container {
+  width: 900px;
+  min-height: 100vh;
+  background: var(--secondary-background-color);
+  margin: 0 auto;
+  /* padding: 50px; */
+  /* display: block; */
+  border-radius: 20px 20px 0 0;
+  /* box-shadow: 
+      0 0 50px #111; */
+  filter: drop-shadow(0 0 15px #111)
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 350px;
+}
+
+.hero-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 4.8rem;
+  text-shadow: 0 0 0.5rem var(--primary-text-color);
+}
+
+h2 {
+  font-size: 2.7rem;
+}
+
+.logotype {
+  transition: transform 0.3s ease-out;
+}
+
+.logotype:hover {
+  transform-origin: bottom right;
+  transform: rotate(-0.004turn);
+}
+
+.hero > h1 {
+  transition: transform 0.5s ease;
+}
+
+.hero > h1:hover {
+  transform: scale(1.1);
+}
+
+a {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  /* padding: 5px; */
+  padding-bottom: 0.3rem;
+  transition: transform 0.7s ease;
+}
+
+a:hover {
+  transform: scale(1.1, 1.1);
+  /* text-decoration: underline dotted; */
+  border-top: 1px dotted var(--secondary-text-color);
+  border-bottom: 1px dotted var(--secondary-text-color);
+}

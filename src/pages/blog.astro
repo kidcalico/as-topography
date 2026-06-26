@@ -1,4 +1,7 @@
 ---
+import '../styles/global.css';
+
+const pageTitle = "as Topography: Post Index"
 ---
 
 <html lang="en">
@@ -8,14 +11,21 @@
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>as topography: about</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
-    <nav>
-      <a href="/as-topography/">Home</a>
-      <a href="/as-topography/blog/">Blog</a>
-      <a href="/as-topography/about/">About</a>
-    </nav>
-    <h1>Blog</h1>
+    <div class="container">
+      <nav>
+        <a href="/as-topography/">Home</a>
+        <a href="/as-topography/blog/">Blog</a>
+        <a href="/as-topography/about/">About</a>
+      </nav>
+      <h1>Blog</h1>
+      <ul>
+        <li>
+          <a href="/as-topography/posts/post-1/">Post 1</a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>

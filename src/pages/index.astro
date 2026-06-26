@@ -1,4 +1,7 @@
 ---
+import '../styles/global.css';
+
+const pageTitle = "Welcome";
 
 ---
 
@@ -9,14 +12,22 @@
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>as topography</title>
+		<title>as Topography: {pageTitle}</title>
 	</head>
 	<body>
-		<nav>
-      <a href="/as-topography/">Home</a>
-      <a href="/as-topography/blog/">Blog</a>
-      <a href="/as-topography/about/">About</a>
-    </nav>
-		<h1>as topography</h1>
+		<header>
+			<h2 class="logotype">as Topography</h2>
+			<nav>
+				<a href="/as-topography/">Home</a>
+				<a href="/as-topography/">Blog</a>
+				<a href="/as-topography/">About</a>
+			</nav>
+		</header>
+		<div class="container">
+			<div class="hero">
+				<h1>{pageTitle}</h1>
+				<div class="hero-image"></div>
+			</div>
+		</div>
 	</body>
 </html>
