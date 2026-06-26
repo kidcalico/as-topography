@@ -1,3 +1,6 @@
+---
+layout: ../../layouts/StaticMarkdownLayout.astro
+---
 # This is a blog about everything. 
 
 I'm sorry, let's start again. This is a blog about everything, filtered through the voices who contribute to it, under the umbrella of one central theme:
@@ -14,24 +17,22 @@ Human creation in the form of design, media and technology, both physical and di
 
 This publication seeks to question the composition of a world modified by hominids, to observe how it impacts our lives in different ways, to wonder how it can be improved, to make note of what already works wonderfully. From the personal to the cultural to the global, *as Topography* aspires to broaden horizons and collect options for the future we want to live in. It gets better if we make it better.
 
-## "So you're a writer?"
+<!-- ### &emsp;"So you're a writer?"
 
-"Yeah."
+&emsp;&emsp;"Yeah."
 
-"What do you write?"
+&emsp;&emsp;"What do you write?"
 
-"Words."
+&emsp;&emsp;"Words."
 
-"Words about what?"
+&emsp;&emsp;"Words about what?"
 
-"Stuff."
+&emsp;&emsp;"Stuff."
 
-"What kind of stuff?"
+&emsp;&emsp;"What kind of stuff?"
 
-"Lots of stuff."
+&emsp;&emsp;"Lots of stuff." -->
 
-Welcome to this space!
+## Welcome to this space!
 
 My name is Ryan, I'm the founder and sole contributor (for now). Thanks for reading, I would really love to hear if you have any thoughts.
-
-Reach me at: [email/socials]

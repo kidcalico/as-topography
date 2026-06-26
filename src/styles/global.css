@@ -87,10 +87,9 @@ header nav {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
   gap: 15px;
-
+  
   width: 90vw;
   min-height: 100vh;
   background: var(--secondary-background-color);
@@ -98,15 +97,19 @@ header nav {
   padding: 70px 70px;
   border-radius: 20px 20px 0 0;
   box-shadow: 
-      0 0 50px #111;
+  0 0 50px #111;
   /* cursor: none; */
+}
+
+.container h1 {
+  align-self: center;
 }
 
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 350px;
+  padding: 150px;
 }
 
 .hero-image {
@@ -119,6 +122,7 @@ header nav {
 footer {
   margin-top: 25px;
   font-size: 1.2rem;
+  align-self: center;
   /* position: s; */
   /* bottom: 15px; */
 }
@@ -133,8 +137,14 @@ h2 {
   font-size: 2.7rem;
 }
 
+h3 {
+  font-size: 1.8rem;
+}
+
 p {
   font-size: 1.6rem;
+  color: var(--secondary-text-color);
+  text-align: justify;
 }
 
 ul {
