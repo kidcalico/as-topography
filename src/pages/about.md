@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/StaticMarkdownLayout.astro
+layout: ../layouts/StaticMarkdownLayout.astro
 ---
 # This is a blog about everything. 
 
