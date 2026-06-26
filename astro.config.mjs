@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://kidcalico.github.io',
+  site: 'https://topography.blog',
   base: '/as-topography'
 });
