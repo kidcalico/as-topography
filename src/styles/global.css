@@ -125,7 +125,7 @@ footer {
 
 h1 {
   font-size: 4.8rem;
-  text-shadow: 0 0 0.5rem var(--primary-text-color);
+  text-shadow: 0 0 0.5rem var(--secondary-text-color);
   
 }
 
