@@ -62,10 +62,13 @@ header nav {
 }
 
 .menu {
-  background-color: #0d0950;
+  font-family: inherit;
+  background-color: var(--secondary-text-color);
+  box-shadow: 0 0 5px var(--secondary-text-color);
   border: none;
-  color: #fff;
-  font-size: 1.2rem;
+  border-radius: 5px;
+  /* color: #fff; */
+  font-size: 1.6rem;
   padding: 5px 10px;
 }
 
@@ -133,6 +136,7 @@ ul {
 
 .logotype {
   transition: transform 0.3s ease-out;
+  cursor: none;
 }
 
 .logotype:hover {
@@ -180,10 +184,10 @@ a:hover, a:focus {
     gap: 10px;
   }
   
-  .nav-links a {
-    /* display: inline-block; */
-    /* padding: 15px 20px; */
-  }
+  /* .nav-links a {
+    display: inline-block;
+    padding: 15px 20px;
+  } */
 
   .menu {
     display: none;
