@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .syne-mono-regular {
   font-family: "Syne Mono", monospace;
@@ -11,7 +13,8 @@
   --secondary-background-color: #111;
   --primary-text-color: #FDB514;
   --secondary-text-color: #ffd67e;
-  --primary-font-stack: "Syne Mono", "Courier New", Courier;
+  --primary-font-stack: "Syne Mono", "Courier New", monospace;
+  --secondary-font-stack: "Space Mono", "Courier New", monospace;
 }
 
 html {
@@ -142,6 +145,7 @@ h3 {
 }
 
 p {
+  /* font-family: var(--secondary-font-stack); */
   font-size: 1.6rem;
   color: var(--secondary-text-color);
   text-align: left;
@@ -185,7 +189,8 @@ nav a:hover, a:focus {
   border-bottom: 1px dotted var(--secondary-text-color);
 }
 
-.container a:hover, a:focus {
+.container a:hover, 
+.container a:focus {
   text-decoration: dotted underline;
 }
 
