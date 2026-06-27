@@ -3,7 +3,9 @@ layout: ../layouts/StaticMarkdownLayout.astro
 ---
 # This is a blog about everything. 
 
-I'm sorry, let's start again. This is a blog about everything, filtered through the voices who contribute to it, under the umbrella of one central theme:
+Let's start again.
+
+This is a blog about everything, filtered through the voices who contribute to it, under the umbrella of one central theme:
 
 The topography of our world shapes our experience of it. 
 
