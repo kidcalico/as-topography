@@ -144,7 +144,7 @@ h3 {
 p {
   font-size: 1.6rem;
   color: var(--secondary-text-color);
-  text-align: justify;
+  text-align: left;
 }
 
 ul {
