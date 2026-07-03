@@ -92,6 +92,7 @@ header nav {
   flex-direction: column;
   /* justify-content: center; */
   gap: 15px;
+  z-index: 0;
   
   width: 90vw;
   min-height: 100vh;
@@ -112,7 +113,7 @@ header nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 150px;
+  /* padding: 150px; */
 }
 
 .hero-image {
@@ -120,6 +121,22 @@ header nav {
   bottom: 0;
   right: 0;
   z-index: -1;
+}
+
+.footnotes {
+  border-top: 1px solid var(--secondary-text-color);
+  margin-top: 25px;
+  padding-top: 20px;
+}
+
+.footnotes p {
+  font-size: 1.2rem;
+}
+
+.footnotes h2 {
+  /* font-size: 1.6rem; */
+  /* margin-top: 25px; */
+  display: none;
 }
 
 footer {
@@ -151,7 +168,12 @@ p {
   text-align: left;
 }
 
+blockquote {
+  margin-left: 10rem;
+}
+
 ul {
+  font-size: 1.6rem;
   list-style: none;
 }
 
@@ -172,6 +194,20 @@ ul {
 
 .hero > h1:hover {
   transform: scale(1.4);
+}
+
+.hero-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
+
+.hero-image canvas {
+}
+
+.p5sketch {
+  /* z-index: +2; */
 }
 
 a {
