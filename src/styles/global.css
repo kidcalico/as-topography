@@ -89,7 +89,6 @@ header nav {
 .container {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   gap: 15px;
   z-index: 0;
   
@@ -116,12 +115,31 @@ header nav {
 
 .hero {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   /* padding: 150px; */
 }
 
+.hero > h1 {
+  transition: transform 5s ease;
+  cursor: none;
+}
+
+.hero > h1:hover {
+  transform: scale(1.4);
+}
+
 .hero-image {
+  z-index: 1;
+}
+
+.hero-image img {
+  width: 30vw;
+  opacity: 50%;
+}
+  
+.p5sketch {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -156,8 +174,6 @@ footer {
   font-size: 1.2rem;
   align-self: center;
   color: var(--secondary-text-color);
-  /* position: s; */
-  /* bottom: 15px; */
 }
 
 h1 {
@@ -210,33 +226,11 @@ li {
   transform: rotate(-0.004turn);
 }
 
-.hero > h1 {
-  transition: transform 5s ease;
-  cursor: none;
-}
 
-.hero > h1:hover {
-  transform: scale(1.4);
-}
-
-.hero-image {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-
-}
-
-/* .hero-image canvas {
-} */
-
-.p5sketch {
-  z-index: -1;
-}
 
 a {
   color: var(--primary-text-color);
   text-decoration: none;
-  /* padding: 5px; */
   padding-bottom: 0.3rem;
   transition: transform 0.7s ease;
 }
