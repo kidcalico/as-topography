@@ -161,6 +161,10 @@ header nav {
   color: var(--secondary-text-color);
 }
 
+.post-info {
+  text-align: center;
+}
+
 .last-edit {
   text-align: right;
 }
