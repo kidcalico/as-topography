@@ -8,7 +8,4 @@ const pageTitle = "Blog";
   <ul>
     {allPosts.reverse().map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title}} />)}
   </ul>
-  <!-- <p style="text-align:center">
-    Soon...
-  </p> -->
 </BaseLayout>
