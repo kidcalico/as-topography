@@ -2,18 +2,19 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'On learning to breathe again...'
 pubDate: 2026-06-24
-description: 'Hopes and dreams for the future of this [web]space.'
+lastEdit: 2026-07-03
+description: 'first post'
 author: 'Ryan Miltenberger'
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
-    alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["astro", "blogging", "learning in public"]
+    url: ''
+    alt: ''
+tags: ["mental health", "self care", "neurodivergence"]
 ---
 Last night I was making one of my go to meals: spinach-mushroom pasta. It was going pretty well until I finished cooking the pasta and added it to the saute, as I normally do. There was one problem though: I forgot to add the spinach. I was already in an absent minded state, so it was downhill from there, I blasted the heat but also needed to add a little water to prevent sticking and sort of steam the frozen greens, ended up with sadness in a bowl for dinner.
 
 This kind of thing hasn't been happening too often lately, thankfully, but it's also not unheard of. Sometimes my brain just decides to stop working. [Sidenote: It actually doesn't 'just' happen, it's actually quite predictable, given that I know what symptoms to look for. I'm getting better at predicting and maneuvering myself into a more encouraging disposition and mindset.] It slowly gets pushed out of balance by overstimulation: (not limited to) too much noise, bright lights (especially florescents), high stress and novel environments. This is exacerbated by other internal factors, such as whether I've drank water, eaten something, bathed or breathed that day. I have trouble remembering to do those things when my brain craps out, so it can become a vicious cycle if I'm not careful.
 
-Thankfully, I am learning to be more careful. For years I've been clumsy with my need for self regulation. Trying to keep up with a world built for speed and quick growth is the antithesis of what I am made for. I know for a *fact* I am far more capable, healthy, productive, energetic and in general more joyful when I have the opportunity to move slow. I'm not talking about laziness.  This is methodological movement through time, calculated steps toward building the life that I want to live. Rush me and I start making mistakes, my work suffers in its quality and impact. It becomes content and loses its value. I refuse to live like this.
+Thankfully, I am learning to be more careful. For years I've been clumsy with my need for self regulation. Trying to keep up with a world built for speed and quick growth is the antithesis of what I am made for. I know for a *fact* I am far more capable, healthy, productive, energetic and in general more joyful when I have the opportunity to move slow. I'm not talking about laziness.  This is methodological movement through time, calculated steps toward building the life that I want to live. Rush me and I start making mistakes, my work suffers in its quality and impact. It becomes *content* and loses its value. I refuse to live like this.
 
 I'd like to say that I always live life in line with my standards, but I find myself forgetting, again and again. I believe this is common for most people, most especially for those who haven't thought about what their standards are. When society says go you go or get left behind. If you don't ask questions you will never realize there are infinite deviations from the norms, hot and ready like tv dinners or just ready like soylent green. Drudging through life you lose all the passion, life becomes dull, hazy, gray. Maybe some psychotropic might color it in from time to time, but most of the time, you suffer. Sorry, not you. I've been talking about me this whole time.
 
@@ -23,11 +24,17 @@ In dullness quality suffers, humanity is obscured, meaning is lost. But it's not
 
 I'm at an interesting place in life. I am coming out of my longest stint of what I have come to understand is neurodivergent burnout. It's been happening to varying degrees all my life, but I've only found out that there is a name for what's been happening to me more recently. Almost a year ago I started a deep dive into the subject, and at this point am pretty confident in my self diagnosis. I am also in the process of getting professional help with all this; I have my first meeting with a psychologist coming up in a few weeks. I'm pretty excited about it actually.
 
-Anyway, this most recent stint of burnout began some time during 2021, and I am only now feeling like I am at the tail end of it. I was teaching English in Taiwan. I had already been hustling for two years, working as much as I could to save up for my next travel adventure. Taiwan had gone into a pretty strict lockdown pretty soon after the first cases were announced in China, and was well prepared to keep the numbers down, which I cannot complain about at all.
+### This most recent stint of burnout began some time during 2021, and I am only now feeling like I am at the tail end of it.
+
+I was teaching English in Taiwan. I had already been hustling for two years, working as much as I could to save up for my next travel adventure. Taiwan had gone into a pretty strict lockdown pretty soon after the first cases were announced in China, and was well prepared to keep the numbers down, which I cannot complain about at all.
 
 I am an introvert, and though I like socializing and being around people, I recharge by spending time alone. Teaching is a very extroverted job, especially when you are teaching children, and I found that my social battery became increasingly depleted, especially when trying to balance a social life on top. I, like most people I'm sure, like having friends. Throw teaching in the mix, and I started to feel less and less like I was having enough recharge time between my plans and obligations. My brain started to buzz with all of the information it was taking in in a single day. At night I was finding it more and more difficult to calm down, to stop the repeating memories from the day. Only now I know that these spinning thoughts are normal in a brain like mine, which is highly attuned to sensory information and prone to overload in certain situations. At that point I only knew that I wanted to find a way to quiet it down.
 
-Now, I haven't mentioned that I've been meditating pretty diligently since 2015, I am a buddhism enthusiast and have spent a few years of my life wandering from Zen center to Vipassana retreat to Thai forest monasteries to yoga ashrams. The monastary or meditation center is pretty much synonymous to 'paradise' in my mind, but I'm trying to be more of an active player in this world. I can't say that I'll become a monk at some point, but I also can't say that I won't. Anyway for now I've been just working on being a human in the most fundamental sense of the word. Meditation works wonders in the retreats. It's a little more difficult when you live on a busy street in a metropolis.
+Now, I haven't mentioned that I've been meditating pretty diligently since 2015, I am a buddhism enthusiast and have spent a few years of my life wandering from Zen center to Vipassana retreat to Thai forest monasteries to yoga ashrams. The monastary or meditation center is pretty much synonymous to 'paradise' in my mind, but I'm trying to be more of an active player in this world.
+
+### I can't say that I'll become a monk at some point, but I also can't say that I won't. 
+
+For now I've been just working on being a human in the most fundamental sense of the word. Meditation works wonders in the retreats. It's a little more difficult when you live on a busy street in a metropolis.
 
 Maybe I am capable of creating a life in between the peace of the forest and the rush of the city, but as of yet, it's been a struggle. All of which is to say that ... meditation and yoga weren't quite cutting it. My life needed to change, but my plan was sabotaged by an invisible to the naked eye virus ravaging the Earth. Like many people during that time, I was torn, between my dreams about the world I wanted to live in, and the harsh reality of a world caught off guard. I started spiraling. I spiraled back to California.
 

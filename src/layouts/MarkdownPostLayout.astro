@@ -5,4 +5,5 @@ const { frontmatter } = Astro.props;
 <BaseLayout pageTitle={frontmatter.title}>
   <p>Written by {frontmatter.author}<br />on {frontmatter.pubDate.toString().slice(0,10)}</p>
   <slot />
+  <p class="last-edit">Last edited on {frontmatter.lastEdit.toString().slice(0,10)}</p>
 </BaseLayout>
