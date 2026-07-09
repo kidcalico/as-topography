@@ -1,7 +1,9 @@
-# I am building a blog using [Astro](https://docs.astro.build/)
+# As Topography: An exploration of the world, as designed by humans.
 
-It's called *as Topography*, and it wonders lots of things about the world.
+This blog wonders lots of things about the world.
 
-Like, what are we doing, and why are we doing it that way? Could we be doing it better? What should we keep the same, and what might benefit from a new perspective?
+Like, what are we doing, and why are we doing it that way? Could we be doing it better? What should we keep the same, and how might we benefit from a new perspectives and approaches?
 
 This is an ongoing passion project, more to come!
+
+Built using [Astro](https://docs.astro.build/)
