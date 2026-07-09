@@ -2,9 +2,13 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Some Kind of Beginning'
 pubDate: 2026-06-30
-lastEdit: 2026-07-03
-description: ''
+lastEdit: 2026-07-08
+description: 'More on my recovery from burnout.'
 author: 'Ryan Miltenberger'
+image:
+    url: '/images/post-imagery/Introvert_V3.png'
+    alt: 'Word art: Introvert written three by three in a square.'
+tags: ["astro", "blogging", "learning in public"]
 ---
 
 I'm starting this blog as a capstone to a very long period spent recovering from burnout.
@@ -27,9 +31,11 @@ There's a lot more to it but this is the tail end, this is my re-emergence slowl
 
 This time is different because I have the added wisdom gleaned from science and the neurodivergent community. I've expanded my toolbox to include more habits that keep me embodied (more often at least) and healthy. Day by day I am feeling more rested, more consistent. Though I definitely experience hiccups and speed bumps, it's better than hitting a concrete wall[^1], and is certainly easier to recover from.
 
-I don't mean to be cryptic but sometimes the easiest way to say something straight is to say it sideways, so I've heard. Essentially I've been through a five year process of rebirth and reinvention, because the old ways weren't working, because I've come to realize more precisely what my own personal flavor of divergence is.
+I don't mean to be cryptic but sometimes the easiest way to say something straight is to say it sideways. 
 
-Though I haven't been able to work a job consistently, I have been grinding in other ways. In addition to learning about how to regulate my nervous system (better late than never, am I right?), which has been time intensive, I've also been studying design, illustration and coding, becoming increasingly obsessed with all of them, because I love them, and also I know I need a job where I can work alone most of the time, and where I can communicate directly and honestly.
+Essentially I've been through a five year process of rebirth and reinvention, because the old ways weren't working, because I've come to understand more precisely what my own personal flavor of divergence is.
+
+Lately I've been learning about how to regulate my nervous system (better late than never, am I right?). I've also been studying design, illustration and coding, becoming increasingly obsessed with all of them, because I love them, and I've rediscovered that engaging in my special interests can be at times more rejuvenating than sleep.
 
 I need to work alone, because I like people.
 

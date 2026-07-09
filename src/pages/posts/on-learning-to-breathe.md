@@ -2,13 +2,13 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'On learning to breathe again...'
 pubDate: 2026-06-24
-lastEdit: 2026-07-03
-description: 'first post'
+lastEdit: 2026-07-08
+description: 'A bit about my struggles with autistic burnout.'
 author: 'Ryan Miltenberger'
 image:
-    url: ''
-    alt: ''
-tags: ["mental health", "self care", "neurodivergence"]
+    url: 'images/brown_sun.svg'
+    alt: 'Brown sun symbol with fourteen arms and a hollow center.'
+tags: ["mental health", "self care", "neurodivergence", "burnout", "recovery", "mindfulness"]
 ---
 Last night I was making one of my go to meals: spinach-mushroom pasta. It was going pretty well until I finished cooking the pasta and added it to the saute, as I normally do. There was one problem though: I forgot to add the spinach. I was already in an absent minded state, so it was downhill from there, I blasted the heat but also needed to add a little water to prevent sticking and sort of steam the frozen greens, ended up with sadness in a bowl for dinner.
 

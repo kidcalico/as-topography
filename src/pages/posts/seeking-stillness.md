@@ -6,7 +6,7 @@ lastEdit: 2026-07-08
 description: 'Hopes and dreams for the future of this [web]space.'
 author: 'Ryan Miltenberger'
 image:
-    url: '../images/post-imagery/seeking-stillness_true-path.png'
+    url: '/images/post-imagery/seeking-stillness_true-path.png'
     alt: 'The true path is rarely found. ——Kabir'
 tags: ["kabir", "meditation", "stillness", "word art", "poetry", "slow life"]
 ---
