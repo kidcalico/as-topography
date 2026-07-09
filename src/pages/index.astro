@@ -1,9 +1,9 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import LandingLayout from '../layouts/LandingLayout.astro';
 
 const pageTitle = "Welcome";
 ---
-<BaseLayout pageTitle={pageTitle}>
+<LandingLayout pageTitle={pageTitle}>
 	<div class="hero">
 		<h1>{pageTitle}</h1>
 		<div class="hero-image">
@@ -13,4 +13,4 @@ const pageTitle = "Welcome";
 		<script is:inline src="/scripts/p5.min.js"></script>
 		<script is:inline src="/scripts/topographical-waves.js"></script>
 	</div>
-</BaseLayout>
+</LandingLayout>
