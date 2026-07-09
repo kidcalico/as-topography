@@ -2,13 +2,13 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Seeking Stillness'
 pubDate: 2026-06-27
-lastEdit: 2026-06-30
+lastEdit: 2026-07-08
 description: 'Hopes and dreams for the future of this [web]space.'
 author: 'Ryan Miltenberger'
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
-    alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["astro", "blogging", "learning in public"]
+    url: '../images/post-imagery/seeking-stillness_true-path.png'
+    alt: 'The true path is rarely found. ——Kabir'
+tags: ["kabir", "meditation", "stillness", "word art", "poetry", "slow life"]
 ---
 
 > "May my word be one with my thought,  
