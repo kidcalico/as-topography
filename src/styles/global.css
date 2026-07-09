@@ -168,7 +168,8 @@ header nav {
 
 .post-image {
   margin: auto;
-  width: 40rem;
+  width: 50vw;
+  /* max-width: 40rem; */
 }
 
 .last-edit {
@@ -273,6 +274,10 @@ sup {
 
   .menu {
     display: none;
+  }
+
+  .post-image {
+    width: 40rem;
   }
 }
 
