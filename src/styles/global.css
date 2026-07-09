@@ -244,6 +244,13 @@ a:focus {
   text-decoration: dotted underline;
 }
 
+h2 a:hover,
+h2 a:focus,
+h2 a {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
 nav a:hover, 
 nav a:focus {
   transform: scale(1.1, 1.1);
