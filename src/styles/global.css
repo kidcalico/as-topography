@@ -165,6 +165,11 @@ header nav {
   text-align: center;
 }
 
+.post-image {
+  margin: auto;
+  width: 40rem;
+}
+
 .last-edit {
   text-align: right;
 }
