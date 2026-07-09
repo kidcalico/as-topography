@@ -98,7 +98,7 @@ header nav {
   min-height: 100vh;
   background: var(--primary-background-color);
   margin: 0 auto;
-  padding: 70px 70px;
+  padding: 70px 70px 0;
 }
 
 .container h1, 
