@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogPost from '../../components/BlogPost.astro';
+
+export async function getStaticPaths() {
+  const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }));
+
+  return [
+    { params: { tag: "neurodivergent"}, props: {posts: allPosts}}, 
+    { params: { tag: "burnout"}, props: {posts: allPosts}},
+    { params: { tag: "self care"}, props: {posts: allPosts}},
+    { params: { tag: "meditation"}, props: {posts: allPosts}},
+  ];
+}
+
+const { tag } = Astro.params;
+const { posts } = Astro.props;
+const filteredPosts = posts.filter((post: any) => post.frontmatter.tags?.includes(tag));
+---
+<BaseLayout pageTitle={tag}>
+  <p>Tagged with "{tag}":</p>
+  {filteredPosts.map((post: any) => <BlogPost url={post.url}, title={post.frontmatter.title} /> )}
+</BaseLayout>
