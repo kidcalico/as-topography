@@ -8,7 +8,7 @@ author: 'Ryan Miltenberger'
 image:
     url: 'images/brown_sun.svg'
     alt: 'Brown sun symbol with fourteen arms and a hollow center.'
-tags: ["mental health", "self care", "neurodivergence", "burnout", "recovery", "mindfulness"]
+tags: ["mental health", "self care", "neurodivergent", "burnout", "recovery", "mindfulness"]
 ---
 Last night I was making one of my go to meals: spinach-mushroom pasta. It was going pretty well until I finished cooking the pasta and added it to the saute, as I normally do. There was one problem though: I forgot to add the spinach. I was already in an absent minded state, so it was downhill from there, I blasted the heat but also needed to add a little water to prevent sticking and sort of steam the frozen greens, ended up with sadness in a bowl for dinner.
 

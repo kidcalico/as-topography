@@ -8,7 +8,7 @@ author: 'Ryan Miltenberger'
 image:
     url: '/images/post-imagery/Introvert_V3.png'
     alt: 'Word art: Introvert written three by three in a square.'
-tags: ["astro", "blogging", "learning in public"]
+tags: ["burnout", "neurodivergent", "mindfulness", "mental health"]
 ---
 
 I'm starting this blog as a capstone to a very long period spent recovering from burnout.
