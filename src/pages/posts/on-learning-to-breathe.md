@@ -6,7 +6,7 @@ lastEdit: 2026-07-08
 description: 'A bit about my struggles with autistic burnout.'
 author: 'Ryan Miltenberger'
 image:
-    url: 'images/brown_sun.svg'
+    url: '/images/post-imagery/brown_sun.png'
     alt: 'Brown sun symbol with fourteen arms and a hollow center.'
 tags: ["mental health", "self care", "neurodivergent", "burnout", "recovery", "mindfulness"]
 ---
