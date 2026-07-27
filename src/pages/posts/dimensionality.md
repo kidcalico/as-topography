@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Dimensionality'
 pubDate: 2026-07-23
-lastEdit: 2026-07-23
+lastEdit: 2026-07-26
 description: 'Better every day...'
 author: 'Ryan Miltenberger'
 # image:
