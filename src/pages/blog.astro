@@ -2,11 +2,12 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BlogPost from '../components/BlogPost.astro';
 const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true}));
+const sortedPosts = allPosts.sort((a, b) => new Date(b.frontmatter.pubDate).getTime() - new Date(a.frontmatter.pubDate).getTime());
 const pageTitle = "Posts";
 ---
 <BaseLayout pageTitle={pageTitle}>
   <h1>{pageTitle}</h1>
   <ul>
-    {allPosts.reverse().map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title}} />)}
+    {sortedPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
   </ul>
 </BaseLayout>
