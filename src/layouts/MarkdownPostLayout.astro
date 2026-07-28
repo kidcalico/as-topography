@@ -6,6 +6,8 @@ const { frontmatter } = Astro.props;
   {frontmatter.image && <img src={frontmatter.image.url} alt={frontmatter.image.alt} class="post-image" />}
   <h1>{frontmatter.title}</h1>
   <p class="post-info">Written by {frontmatter.author}<br />on {frontmatter.pubDate.toString().slice(0,10)}</p>
-  <slot />
+  <div class="post-content">
+    <slot />
+  </div>
   <p class="last-edit">Last edited on {frontmatter.lastEdit.toString().slice(0,10)}</p>
 </BaseLayout>
