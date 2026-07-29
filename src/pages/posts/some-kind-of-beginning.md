@@ -6,7 +6,7 @@ lastEdit: 2026-07-08
 description: 'More on my recovery from burnout.'
 author: 'Ryan Miltenberger'
 image:
-    url: '/images/post-imagery/Introvert_V3.png'
+    url: '/images/post-imagery/introvert_v3.png'
     alt: 'Word art: Introvert written three by three in a square.'
 tags: ["burnout", "neurodivergent", "mindfulness", "mental health"]
 ---
