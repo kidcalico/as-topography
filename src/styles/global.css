@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 .syne-mono-regular {
   font-family: "Syne Mono", monospace;
@@ -13,7 +15,7 @@
   --primary-text-color: #ffd67e;
   --secondary-text-color: #FDB000;
   --primary-font-stack: "Syne Mono", "Courier New", monospace;
-  --secondary-font-stack: "Space Mono", "Courier New", monospace;
+  --secondary-font-stack: "Geist Mono", "Courier New", monospace;
 }
 
 html {
@@ -98,13 +100,16 @@ header nav {
   min-height: 100vh;
   background: var(--primary-background-color);
   margin: 0 auto;
-  padding: 70px 70px 0;
+  padding: 10px 10px 0;
+
+  font-family: var(--secondary-font-stack);
 }
 
 .container h1, 
 .container h2 {
   align-self: center;
   color: var(--secondary-text-color);
+  font-family: var(--primary-font-stack);
 }
 
 .container h1 {
@@ -306,6 +311,10 @@ sup {
     display: flex;
     align-items: center;
     gap: 10px;
+  }
+
+  .container {
+    padding: 0 70px;
   }
 
   .menu {
