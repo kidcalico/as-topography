@@ -117,9 +117,18 @@ header nav {
   gap: 15px;
 }
 
-.post-content img {
-  width: 50vw;
+.post-content p:has(img) {
+  display: flex;
   margin: auto;
+}
+
+.post-content > p > img {
+  width: 20vw;
+  /* margin: auto; */
+}
+
+figcaption {
+  text-align: center;
 }
 
 .hero {
