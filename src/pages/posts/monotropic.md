@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Monotropic'
 postNumber: 0005
 pubDate: 2026-07-27
-lastEdit: 2026-07-28
+lastEdit: 2026-07-31
 description: 'Reflection in the midst of recovery.'
 author: 'Ryan Miltenberger'
 image:
@@ -19,7 +19,7 @@ It's a very significant part of my history, and now as I am coming to understand
 
 Basically when I take in information from the world in the form of sensory stimuli from the tactile/audio/visual/olfactory/gustative aspects of my current environment, my brain takes in a lot more of those signals from the world than the average neurotypical person, and so at a certain point I hit a threshold where I either I need a change of environment or my body "goes numb". While everyone certainly has their own limits in this area, my limits tends to be a lot lower than most people. If I am not careful about managing highly stimulating sensory activity, which starts with learning what triggers me specifically (it's different for everyone). Soon I will be bumping into walls or dislocating my shoulder (both of which have been known to happen). Though it seems to the outside world like my brain is still working, because my mind is *kind of* still working, my brain and mind are taking time apart until I regain space in my working memory in order to operate like a person again.
 
-I need to talk about this stuff in the open because I'm tired of holding it in. I'm working on seeking a formal diagnosis, but it's taking longer than I can stand and so my only option is to help myself through this cycle of burnout recovery by reading books, watching videos, reading articles and the like. And journaling, there has been a lot of journaling during the past few years, but especially this year. A month ago or so I calculated I had written over 300,000 words during the previous 365 days. I've been doing the work, but I've had no one to talk to this about.
+I need to talk about this stuff in the open because I'm tired of holding it in. I'm working on seeking a formal diagnosis, but it's taking longer than I can stand and so my only option is to help myself through this cycle of burnout recovery by reading books, watching videos, reading articles and the like. And journaling, there has been a lot of journaling during the past few years, but especially this year. A month ago or so I calculated I had written over 300,000 words during the previous 365 days. I've been doing the work, but I've had no one to talk to this about until I started seeing a psychotherapist about this. Therapy is awesome when you find the right therapist! So are weighted blankets.
 
 Since I'm often an overwhelmed person, I seem like a shy person, and I've always been labeled as shy although I wouldn't consider myself that way. As my burnout stints have become worse over the years, I've also lost a lot of my old social habits. It's sad, because I actually really want to keep up a lot of those old friendships from my past, but often times I just don't have the bandwidth to keep up with even my own family sometimes (I'm sorry, family and friends &#129782;).
 
