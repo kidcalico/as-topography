@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Monotropic'
+postNumber: 0005
 pubDate: 2026-07-27
 lastEdit: 2026-07-28
 description: 'Reflection in the midst of recovery.'

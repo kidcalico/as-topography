@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'On learning to breathe again...'
+postNumber: 0001
 pubDate: 2026-06-24
 lastEdit: 2026-07-08
 description: 'A bit about my struggles with autistic burnout.'

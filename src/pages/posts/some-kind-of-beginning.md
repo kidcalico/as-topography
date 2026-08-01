@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Some Kind of Beginning'
+postNumber: 0003
 pubDate: 2026-06-30
 lastEdit: 2026-07-08
 description: 'More on my recovery from burnout.'

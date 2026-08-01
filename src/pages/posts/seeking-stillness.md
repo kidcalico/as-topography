@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Seeking Stillness'
+postNumber: 0002
 pubDate: 2026-06-27
 lastEdit: 2026-07-08
 description: 'Hopes and dreams for the future of this [web]space.'
