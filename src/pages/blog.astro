@@ -10,4 +10,5 @@ const pageTitle = "Posts";
   <ul>
     {sortedPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
   </ul>
+  <p><a href="/tags/"><strong>Sort by Tag</strong></a></p>
 </BaseLayout>
