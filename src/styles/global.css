@@ -12,8 +12,9 @@
 
 :root {
   --primary-background-color: #111;
-  --primary-text-color: #ffd67e;
+  --primary-text-color: #fff3d8;
   --secondary-text-color: #FDB000;
+  --block-quote-border: #fdb10038;
   --primary-font-stack: "Syne Mono", "Courier New", monospace;
   --secondary-font-stack: "Geist Mono", "Courier New", monospace;
 }
@@ -219,6 +220,7 @@ figcaption {
 
 footer {
   margin-top: 25px;
+  margin-bottom: 50px;
   font-size: 1.2rem;
   align-self: center;
   color: var(--secondary-text-color);
@@ -248,6 +250,9 @@ p {
 
 blockquote {
   margin-left: 5rem;
+  padding-left: 2rem;
+  border-left: 1rem solid var(--block-quote-border);
+  font-style: italic;
 }
 
 cite {
