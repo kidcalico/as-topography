@@ -38,8 +38,6 @@ So all we can ever really know about the world stems from sensory input and the 
 
 Cognition deals with processing of knowledge and information. At first it may be tempting to equate cognition with the mind, and in some ways that would be correct. Cognition is one of the things humans are capable of doing best, even going so far as to create tools which assist and modify our cognitive abilities.
 
-<img src="" alt="">
-
 What interests me about cognitive science is its interdisciplinary nature. Whereas the more "classical sciences" have sought to explain an object of interest in isolation, cognitive science has shown me that often times this way of studying nature provides an incomplete explanation of reality. By doing the opposite, by agreeing from the beginning that often it is difficult to draw a perfect boundary between two seemingly disparate subjects (cognition and design, for example), it turns into a study of relationships, instead of subjects in and of themselves. By studying these relationships, we come to learn all of these fascinating things about our disposition as humans living in an inseparable, and very real world.
 
 My plan, through this blog, is to observe the world through the lens of metacognition (thinking about cognition). To look at the ways cognition shapes the design of our world, and likewise how the designed world shapes our cognition. The goal is to be better informed about our relationship with the world, and to better take care of the world, which is the only home we've ever known.
