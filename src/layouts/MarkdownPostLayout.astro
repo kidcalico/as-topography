@@ -8,6 +8,14 @@ const { frontmatter } = Astro.props;
   <p class="post-info">Written by {frontmatter.author}<br />on {frontmatter.pubDate.toString().slice(0,10)}</p>
   <div class="post-content">
     <slot />
+    <div class="tags">
+      <p>
+        Tags: 
+        {frontmatter.tags.map((tag) => (
+          <p class="tag"><a href={`/tags/${tag}`}>{tag}</a></p>
+        ))}
+      </p>
+    </div>
   </div>
   <p class="last-edit">Last edited on {frontmatter.lastEdit.toString().slice(0,10)}</p>
 </BaseLayout>
