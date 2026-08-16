@@ -1,5 +1,23 @@
 ---
+import type { string } from "astro:schema";
 import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  frontmatter: {
+    postNumber: number;
+    pubDate: Date;
+    lastEdit: Date;
+    title: string;
+    description: string;
+    author: string;
+    image: {
+      url: string;
+      alt: string;
+    }
+    tags: string[];
+  }
+}
+
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
