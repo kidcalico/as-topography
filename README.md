@@ -6,4 +6,6 @@ Like, what are we doing, and why are we doing it that way? Could we be doing it 
 
 This is an ongoing passion project, more to come!
 
+---
+
 Built using [Astro](https://docs.astro.build/)
