@@ -15,6 +15,11 @@
   --primary-text-color: #fff3d8;
   --secondary-text-color: #FDB000;
   --block-quote-border: #fdb10038;
+
+  --light-mode-background: #ffebbc;
+  --light-mode-primary-text: #111;
+  --light-mode-secondary-text: #8d6300;
+
   --primary-font-stack: "Syne Mono", "Courier New", monospace;
   --secondary-font-stack: "Geist Mono", "Courier New", monospace;
 }
@@ -34,6 +39,12 @@ html {
   font-size: inherit;
 }
 
+html.light {
+  --primary-background-color: #fef9df;
+  /* --primary-background-color: #ffebbc; */
+  --primary-text-color: #111;
+  --secondary-text-color: #8d6300;
+}
 
 body {
   display: flex;
@@ -72,6 +83,7 @@ header nav {
 .menu {
   font-family: inherit;
   background-color: var(--primary-text-color);
+  color: var(--primary-background-color);
   box-shadow: 0 0 5px var(--primary-text-color);
   border: none;
   border-radius: 5px;
@@ -171,8 +183,12 @@ figcaption {
 
 .footnotes {
   border-top: 1px solid var(--primary-text-color);
-  margin-top: 25px;
-  padding-top: 20px;
+  border-bottom: 1px solid var(--primary-text-color);
+  /* margin-top: 25px; */
+  margin: 25px 0 25px;
+  /* margin-bottom: 25px; */
+  padding: 20px 0 15px;
+  /* padding-bottom: 20px; */
 }
 
 .footnotes p {
