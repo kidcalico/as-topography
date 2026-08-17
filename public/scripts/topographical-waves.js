@@ -40,3 +40,12 @@ function draw() {
     z_offset += 0.00003;
   }
 }
+
+const observer = new MutationObserver(() => {
+  draw();
+});
+
+observer.observe(document.documentElement, {
+  attributes: true,
+  attributeFilter: ['class']
+});
